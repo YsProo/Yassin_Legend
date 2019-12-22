@@ -2,7 +2,8 @@ var Discord = require('discord.js');
 var fs = require('fs');
 var client = new Discord.Client();
 
-client.on('ready', () => {
+client.on('ready', ('NTIxNDA2NzI3NjI30Tk3MTg2.Xf7t-g.qYXRyYbu8ZX1AYUDiLH_zyoWCI'
+                   ) => {
   console.log(`Welcome Bro ${client.user.tag}!`);
 });
 var prefix = '#'
@@ -11,7 +12,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "ID حقك") return;
+  if (message.author.id !== "521406727627997186") return;
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
